@@ -57,7 +57,7 @@ h1 {
 }
 
 .nav li {
-  
+
   padding: 20px 3px 0 3px; 
   float: left; 
   
@@ -122,6 +122,70 @@ h1 {
   height: 100px;
   width: 150px;
   margin: 0px 20px 0px 20px;
+
 }
+
+.pathways {
+  position: absolute;
+  left: 80%;
+  top: 10px;
+  padding-left: 10px;
+  border: 20px;
+  height: 150px;
+  width: 200px;
+  border: 1px solid #ccc;
+  background-color: #ccc;
+}
+
+.pathways h1 {
+  padding: 10px;
+  color: RGBA(0, 58, 97, 1);
+  text-align: center;
+  font-size: 20px;
+}
+
+label {
+  margin-left: 10px;
+  color: RGBA(0, 58, 97, 1);
+}
+
+input {
+  margin-bottom: 15px;
+}
+
+.dropdown {
+  position: absolute;
+  left: 23px;
+  top: 91px;
+  border: 2px  black;
+  border-style: solid none none none;
+  width: 151px;
+  height: 0px;
+}
+
+.triangle {
+  position: absolute;
+  top: 97px;
+  left: 87px;
+  width: 22px;
+}
+
+.dropdownTop {
+  position: absolute;
+  left: 322px;
+  top: 75px;
+  border: 2px  black;
+  border-style: solid none none none;
+  width: 151px;
+  height: 0px;
+}
+
+.triangleTop {
+  position: absolute;
+  top: 79px;
+  left: 388px;
+  width: 22px;
+}
+
 
 
