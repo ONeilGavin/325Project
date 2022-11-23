@@ -40,7 +40,7 @@ h1 {
   text-align: center;
   font-size: 1.8rem;
      
-    text-shadow: rgba(0,0,0,0.6) 1px 0, rgba(0,0,0,0.6) 1px 0, rgba(0,0,0,0.6) 0 1px, rgba(0,0,0,0.6) 0 1px;
+    /* text-shadow: rgba(0,0,0,0.6) 1px 0, rgba(0,0,0,0.6) 1px 0, rgba(0,0,0,0.6) 0 1px, rgba(0,0,0,0.6) 0 1px; */
 }
 
 .nav {
@@ -111,18 +111,18 @@ h1 {
 
 .nav li a{
   display: inline-block;
-  padding: 5px 10px;
+  padding: 25px 10px;
   border: 1px solid #ccc;
+  border-radius: 20px;
   text-decoration: none;
   text-transform: uppercase;
   background-color: #ccc;
   color: RGBA(0, 58, 97, 1);
-  font-family: arial, verdana, tahoma;
-  font-size: 30px;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 20px;
   height: 100px;
   width: 150px;
   margin: 0px 20px 0px 20px;
-
 }
 
 .pathways {
@@ -131,6 +131,7 @@ h1 {
   top: 10px;
   padding-left: 10px;
   border: 20px;
+  border-radius: 20px;
   height: 150px;
   width: 200px;
   border: 1px solid #ccc;
@@ -142,6 +143,7 @@ h1 {
   color: RGBA(0, 58, 97, 1);
   text-align: center;
   font-size: 20px;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 label {
@@ -169,13 +171,14 @@ input {
   left: 87px;
   width: 22px;
   color: RGBA(0, 58, 97, 1);
+  border-radius: 3px;
 }
 
 .dropdownTop {
   position: absolute;
   left: 322px;
   top: 75px;
-  border: 2px  black;
+  border: 2px RGBA(0, 58, 97, 1);
   border-style: solid none none none;
   width: 151px;
   height: 0px;
