@@ -2,12 +2,15 @@
 <html>
     <head>
         <title>CICS Flowchart</title>
+        <link rel="stylesheet" href="/imagestyles.css">
     </head>
     <body>
-        <h2>CS 220 Course Description</h2>
-        <h2>In the "show next classes" we can have a link to the image with the next classes</h2>
-        <a href="/index.html"><h2>Click on up arrow to collapse image</h2></a>
-        <a href="nextclasses.html">Next classes</a>
-        <img src="/static/imagename.png">
+        <img src="/static/swe pathway desc.png", usemap="#workmap">
+        <map name="workmap" id="workmap">
+            <!-- Collapse desc -->
+            <area shape="rect" coords="518, 817, 561, 840" href="pathways.html">
+            <!-- Next classes -->
+            <area shape="rect" coords="435, 785, 453, 798" href="nextclasses.html">     
+          </map> 
     </body>
 </html>
