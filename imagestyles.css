@@ -2,9 +2,14 @@
 body {
     margin: 0;
     padding: 0;
-    background: RGBA(0, 58, 97, 1)
+    background: RGBA(0, 58, 97, 1);
 }
 img {
+    scale: 60%;
     width: 1920px;
     height: 1080px;
+    position: absolute;
+    top: -25%;
+    left: -14%;
+
 }
